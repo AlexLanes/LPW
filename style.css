@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:ital,wght@0,300;1,400&family=Tapestry&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins',sans-serif;
+    background: linear-gradient(-45deg, #517aff, #3518b8, #fd68f6);
+}
+
+#form{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 10px;
+    padding: 60px;
+    width: max-content;
+    align-items: center;
+    color: #13025e;
+}
+.title{
+    font-size: 1.8em;
+    margin-bottom: 10%;
+
+}
+.input{
+    min-width: 280px;
+    border-radius: 22px;
+    border: 2px #080418 solid;
+    padding: 5px;
+    margin: 0px 0px 12px -5px;
+}
+.input i {
+    font-size: 1.2em;
+    padding: 5px;
+    background: -webkit-linear-gradient(-45deg, #517aff, #3518b8, #fd68f6);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.input input{
+    width: 80%;
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    transform: translateY(-10%);
+    color: #080418;
+    font-size: 11pt;
+    
+}
+#form button{
+    margin: 20px 0;
+    margin-left: 10px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(-45deg, #517aff, #3518b8, #fd68f6);
+    height: 70px;
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+}
+
+#form button:hover{
+    background: linear-gradient(-45deg, #0028ac, #180279, #f103e6);
+
+}

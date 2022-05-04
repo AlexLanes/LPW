@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/29/29302.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cadastro de Livros</title>
+    <script src="./CtrlSessao.js" type="module"></script>
+</head>
+
+<body>
+    <div id="form">
+        <!-- InicioFormulario -->
+        <form action="#" method="GET">
+            <h2 class="title">Cadastro de Livros</h2>
+
+            <!-- InicioLabels -->
+            <label for="ISBN">ISBN</label>
+            <div class="input">
+                <i class="fa-solid fa-book"></i>
+                <input id="ISBN" type="text " placeholder="Digite um ISBN Valido">
+            </div>
+
+            <label for="Nome">Nome do Livro</label>
+            <div class="input">
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                <input id="Nome" type="text" placeholder="Digite o Nome do Livro">
+            </div>
+
+            <label for="pag">Numero de Paginas</label>
+            <div class="input">
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                <input id="Paginas" type="number" placeholder="Entre 1 e 9999">
+            </div>
+
+            <label for="Quantidade">Quantidade</label>
+            <div class="input">
+                <i class="fa fa-pagelines" aria-hidden="true"></i>
+                <input id="Quantidade" type="number" placeholder="Maior de 0">
+            </div>
+            <!-- FimLabels -->
+
+            <!-- ComeçoBotões -->
+            <div id="divNavegar">
+                <button id="btPrimeiro">Primeiro</button>
+                <button id="btAnterior">Anterior</button>
+                <button id="btProximo" >Proximo</button>
+                <button id="btUltimo"  >Ultimo</button>
+            </div>
+            <div id="divComando">
+                <button id="btIncluir" >Incluir</button>
+                <button id="btAlterar" >Alterar</button>
+                <button id="btExcluir" >Excluir</button>
+                <button id="btSair"    >Sair</button>
+            </div>
+            <div id="divAviso"></div>
+            <div id="divDialogo" hidden>
+                <button id="btOk"      >Ok</button>
+                <button id="btCancelar">Cancelar</button>
+            </div>
+            <!-- FimBotões -->
+            
+        </form>
+        <!-- FimFormulario -->
+    </div>
+</body>
+
+</html>
