@@ -65,7 +65,7 @@ export default class ViewerLivro {
       this.Nome.value         = livro.getNome();
       this.Paginas.value      = livro.getPaginas();
       this.Quantidade.value   = livro.getQuantidade();
-      this.divAviso.innerHTML = pos + " de " + qtde + " Livro(s) Cadastrado(s )";
+      this.divAviso.innerHTML = pos + " de " + qtde + " Livro(s) Cadastrado(s)";
     }
   }
 
